@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#bfe6ff"/>
+  <rect y="400" width="800" height="100" fill="#4aa3d8"/>
+  <circle cx="710" cy="70" r="40" fill="#ffd54a"/>
+  <!-- base pelican legs -->
+  <path d="M340 350 L330 420 L300 425 L345 430 L360 420 L365 350 Z" fill="#ff9800"/>
+  <path d="M400 350 L400 420 L370 428 L415 432 L430 420 L425 350 Z" fill="#fb8c00"/>
+  <!-- base pelican tail -->
+  <path d="M215 290 L130 330 L225 345 Z" fill="#cfd8dc"/>
+  <!-- base pelican body -->
+  <ellipse cx="370" cy="300" rx="170" ry="85" fill="#f5f5f5"/>
+  <path d="M260 280 Q360 250 470 300 Q400 380 280 330 Z" fill="#b0bec5"/>
+  <path d="M470 270 Q560 250 560 190 Q560 150 600 140 L620 175 Q600 190 605 215 Q610 290 500 340 Z" fill="#f5f5f5"/>
+  <circle cx="615" cy="150" r="38" fill="#fafafa"/>
+  <path d="M640 140 L790 175 L785 185 L640 170 Z" fill="#ffb300"/>
+  <path d="M640 170 L785 185 Q720 250 635 180 Z" fill="#ffca28"/>
+  <circle cx="625" cy="140" r="7" fill="#212121"/>
+  <circle cx="627" cy="138" r="2.5" fill="#ffffff"/>
+  <!-- rider pelican, half size, sitting on the base pelican's back -->
+  <g transform="translate(145 65) scale(0.5)">
+    <path d="M215 290 L130 330 L225 345 Z" fill="#cfd8dc"/>
+    <ellipse cx="370" cy="300" rx="170" ry="85" fill="#fafafa"/>
+    <path d="M260 280 Q360 250 470 300 Q400 380 280 330 Z" fill="#b0bec5"/>
+    <path d="M470 270 Q560 250 560 190 Q560 150 600 140 L620 175 Q600 190 605 215 Q610 290 500 340 Z" fill="#fafafa"/>
+    <circle cx="615" cy="150" r="38" fill="#ffffff"/>
+    <path d="M640 140 L790 175 L785 185 L640 170 Z" fill="#ff7043"/>
+    <path d="M640 170 L785 185 Q720 250 635 180 Z" fill="#ff8a65"/>
+    <circle cx="625" cy="140" r="7" fill="#212121"/>
+    <circle cx="627" cy="138" r="2.5" fill="#ffffff"/>
+  </g>
+</svg>
